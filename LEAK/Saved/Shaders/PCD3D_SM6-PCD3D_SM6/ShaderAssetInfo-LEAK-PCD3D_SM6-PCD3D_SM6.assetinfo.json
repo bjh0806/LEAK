@@ -2,6 +2,12 @@
 	"AssetInfoVersion": 2,
 	"ShaderCodeToAssets": [
 		{
+			"ShaderMapHash": "7DAF01793C0456BB8E6FC5DA778BB1A5FCD04D61",
+			"Assets": [
+				"/ControlRig/Controls/ControlRigGizmoMaterial"
+			]
+		},
+		{
 			"ShaderMapHash": "A362E4C17DC0C79DC7555697EF1B3C0B424D4842",
 			"Assets": [
 				"/Engine/EditorMaterials/PhAT_NoCollisionMaterial"
@@ -11,6 +17,18 @@
 			"ShaderMapHash": "7F575111C7AA3E417782758AA698A9E4C092B99F",
 			"Assets": [
 				"/Engine/EditorMaterials/PhAT_UnselectedMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "1EFAF36BE13B7F8D7EDD410DD8152D7CDB1ABE20",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/DebugEditorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "191A368D1C79B25350AF6168BC387E8C85A9116D",
+			"Assets": [
+				"/MeshModelingToolset/Materials/M_DynamicMeshComponentVtxColor"
 			]
 		},
 		{
@@ -81,16 +99,105 @@
 			]
 		},
 		{
-			"ShaderMapHash": "870AAA65EC7B4F8A8311CE1C7268029BD170ADE5",
+			"ShaderMapHash": "17F0AFD0D09C5657D5326AF68F28C793692F429E",
 			"Assets": [
-				"/Engine/EngineMaterials/FlattenMaterial_WS_Normal_VT"
+				"/Game/Assets/Material/M_ButtonText"
+			]
+		},
+		{
+			"ShaderMapHash": "02595801E7FA2EC83AA64C3B347951DC05B96BFC",
+			"Assets": [
+				"/Game/Assets/Material/M_Elevator",
+				"/Game/Assets/Material/M_DoorHandle"
+			]
+		},
+		{
+			"ShaderMapHash": "181E6816F7E73C0B7C1EB6A92CF62A6391B8BBEC",
+			"Assets": [
+				"/Game/Assets/Material/M_ElevatorButton",
+				"/Game/Assets/Material/M_Door2"
+			]
+		},
+		{
+			"ShaderMapHash": "CBB81DC87A36058E97766C68720C93D4456197AD",
+			"Assets": [
+				"/Game/Assets/Material/M_ElevatorFloor"
+			]
+		},
+		{
+			"ShaderMapHash": "395CB3EF97DC2A640700D8FA8BB1D9F2D5A8F5D5",
+			"Assets": [
+				"/Niagara/DefaultAssets/DefaultSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "3184C79B2539CCD09EBCF24ECEC5B57A80B2922C",
+			"Assets": [
+				"/Game/Assets/Material/M_Shelf"
+			]
+		},
+		{
+			"ShaderMapHash": "AE846364DC2D96715819E5C4F2F98F7F44F70F9C",
+			"Assets": [
+				"/Game/Assets/Material/M_GlassJar_Lid2"
+			]
+		},
+		{
+			"ShaderMapHash": "AB0BB6D3F580631C73D9D940B3386A512E0BEC8B",
+			"Assets": [
+				"/Game/Assets/Material/M_Shelf_Iron"
+			]
+		},
+		{
+			"ShaderMapHash": "A0CD578BCF8875E561457150A67F80219C8D7D8F",
+			"Assets": [
+				"/Game/Assets/Material/01_-_Default",
+				"/Game/Assets/Material/M_Flastic"
+			]
+		},
+		{
+			"ShaderMapHash": "9656E97377B35FF34F3B6CC4FD8793383439244E",
+			"Assets": [
+				"/Game/Assets/Material/M_Face"
+			]
+		},
+		{
+			"ShaderMapHash": "DC7317E7B51BC60B7479421A1E4B1A0E6052BD3C",
+			"Assets": [
+				"/Game/Assets/Models/Material_003",
+				"/Game/Assets/Models/iris",
+				"/Game/Assets/Models/Highlight"
+			]
+		},
+		{
+			"ShaderMapHash": "C6110DA54BABCEF73FAB8F49EF084B6059F01F10",
+			"Assets": [
+				"/Engine/MapTemplates/Materials/BasicAsset02"
+			]
+		},
+		{
+			"ShaderMapHash": "AFEC18D439360C76136F0BEAE7491C7A5FEF0E2E",
+			"Assets": [
+				"/Game/Assets/Material/M_Lamp"
+			]
+		},
+		{
+			"ShaderMapHash": "0F5F43FBA79448125E4993F5414DBAB22136F5CC",
+			"Assets": [
+				"/Engine/MapTemplates/Materials/BasicAsset01"
+			]
+		},
+		{
+			"ShaderMapHash": "743B56325109B954EC97CFB078ACF42B04260603",
+			"Assets": [
+				"/Paper2D/DefaultSpriteMaterial"
 			]
 		},
 		{
 			"ShaderMapHash": "38949598446BE43268DA722849243DCEF7AF9347",
 			"Assets": [
-				"/Engine/EngineMaterials/FlattenMaterial_VT",
-				"/Engine/EngineMaterials/FlattenMaterial"
+				"/Engine/EngineMaterials/FlattenMaterial",
+				"/Engine/EngineMaterials/FlattenMaterial_VT"
 			]
 		},
 		{
@@ -106,9 +213,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "743B56325109B954EC97CFB078ACF42B04260603",
+			"ShaderMapHash": "870AAA65EC7B4F8A8311CE1C7268029BD170ADE5",
 			"Assets": [
-				"/Paper2D/DefaultSpriteMaterial"
+				"/Engine/EngineMaterials/FlattenMaterial_WS_Normal_VT"
 			]
 		},
 		{
@@ -167,15 +274,167 @@
 			]
 		},
 		{
+			"ShaderMapHash": "3BBC4507F905E55934B3D4DE1D9E957491E6A0B4",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "CCCAC217B7135DC1712C5974EBE16F309B2ACE8C",
+			"Assets": [
+				"/Engine/EditorMaterials/PreviewShadowIndicatorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A8154295A8CCADBD50F6010C9380993A9A26A1DF",
+			"Assets": [
+				"/Interchange/Materials/PhongSurfaceMaterial"
+			]
+		},
+		{
 			"ShaderMapHash": "62E4D3D1D7A27E09E644C75F50DCD17A6BAAEE9B",
 			"Assets": [
 				"/Engine/EngineMaterials/WorldGridMaterial"
 			]
 		},
 		{
+			"ShaderMapHash": "453E5A5B25D5112EAA5182B007ABDD8BFEA0590D",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/ShadedLevelColorationLitMaterial"
+			]
+		},
+		{
 			"ShaderMapHash": "30BA37794BE71F09030CE96DDFE9BE78955A03A2",
 			"Assets": [
 				"/Engine/EngineMaterials/DefaultTextMaterialOpaque"
+			]
+		},
+		{
+			"ShaderMapHash": "85E7D862564E6DBBBAF6AF78998965AFFA044EDF",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
+			]
+		},
+		{
+			"ShaderMapHash": "4AAC5998E0D754804BACEC3855282D918BF08DE8",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
+			]
+		},
+		{
+			"ShaderMapHash": "AAE7DE1C24309B635F8E94708A583B1C3F3D00E7",
+			"Assets": [
+				"/Game/Assets/Material/M_Danger1"
+			]
+		},
+		{
+			"ShaderMapHash": "10F2E44BB97D4E41E5CFF22443AF3720718A6EC6",
+			"Assets": [
+				"/Game/Assets/Material/M_Danger2"
+			]
+		},
+		{
+			"ShaderMapHash": "327B7F210DB619EB9D6704B632E110FE68274967",
+			"Assets": [
+				"/Game/Assets/Material/M_ExitLight"
+			]
+		},
+		{
+			"ShaderMapHash": "29FAE60E8B57B981A074D9C1C0B5AD39ADAB603B",
+			"Assets": [
+				"/Game/Assets/Material/ObjectCopyMat",
+				"/Game/Assets/Material/ObjectCopyMat_Gun"
+			]
+		},
+		{
+			"ShaderMapHash": "769E4BD2FE72A8EFD61A685DC4186D0AB83833B7",
+			"Assets": [
+				"/Game/Assets/Material/M_AccessDoor"
+			]
+		},
+		{
+			"ShaderMapHash": "AC9C284DF870187346EB07AB0071E479A58DDDD5",
+			"Assets": [
+				"/Game/Assets/Material/M_Spider"
+			]
+		},
+		{
+			"ShaderMapHash": "E578099C40792B26EFB7A560C0D750F427DBC35E",
+			"Assets": [
+				"/Game/Assets/Models/Material",
+				"/Game/Assets/Material/Default"
+			]
+		},
+		{
+			"ShaderMapHash": "338302D3A74AEAD58342CC472424F5CFF59BA4D0",
+			"Assets": [
+				"/Game/Assets/Material/M_Shutter_Danger"
+			]
+		},
+		{
+			"ShaderMapHash": "B04FA894B0CD8C204319C9C501CC7ABAA43E9B15",
+			"Assets": [
+				"/Engine/VREditor/UI/M_ContentWindow"
+			]
+		},
+		{
+			"ShaderMapHash": "D9B7E34F5C3741168887F7608E47E465C65E207A",
+			"Assets": [
+				"/Game/Assets/Material/M_File"
+			]
+		},
+		{
+			"ShaderMapHash": "01760BA9007A6384FABFDA196A44E379359A9492",
+			"Assets": [
+				"/Game/Assets/Material/M_FileBox"
+			]
+		},
+		{
+			"ShaderMapHash": "87C10838105B26E4C446835B8B97027D05F42247",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Wood_Walnut"
+			]
+		},
+		{
+			"ShaderMapHash": "AB34249445971790D186FDB95EA26CCC3A33E084",
+			"Assets": [
+				"/Game/StarterContent/Props/Materials/M_StatueGlass"
+			]
+		},
+		{
+			"ShaderMapHash": "55F7408C7A5A9F0D41583D20E176A58168413227",
+			"Assets": [
+				"/Game/Assets/Material/M_ShutterBody"
+			]
+		},
+		{
+			"ShaderMapHash": "C8C2DBEFB4116E248BA2FE49665024F39F93FB4C",
+			"Assets": [
+				"/Engine/VREditor/BasicMeshes/M_Floor_01"
+			]
+		},
+		{
+			"ShaderMapHash": "285494087DDFD8086AA0EAB6D411E2EA6F466B67",
+			"Assets": [
+				"/Game/Assets/Material/M_Paper"
+			]
+		},
+		{
+			"ShaderMapHash": "434B6239CCE95149DEC0B602489B66271C6FB600",
+			"Assets": [
+				"/Game/Assets/Material/M_Gun"
+			]
+		},
+		{
+			"ShaderMapHash": "9D8C16920EF1BF9AD17CC735AAC5A0D766E088CB",
+			"Assets": [
+				"/Game/Assets/Material/M_GunHandle"
+			]
+		},
+		{
+			"ShaderMapHash": "5A603A1E990A3E2212123FCF071B82CB25F9F51E",
+			"Assets": [
+				"/Game/Assets/Material/M_ToolBox"
 			]
 		},
 		{
@@ -215,9 +474,21 @@
 			]
 		},
 		{
-			"ShaderMapHash": "191A368D1C79B25350AF6168BC387E8C85A9116D",
+			"ShaderMapHash": "54DD3768AEC68A3E25CBF4D08B128F511A861B38",
 			"Assets": [
-				"/MeshModelingToolset/Materials/M_DynamicMeshComponentVtxColor"
+				"/Interchange/Materials/LambertSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A8367273EA1F00215377F6A538E841B482B180B4",
+			"Assets": [
+				"/Interchange/Materials/OrenNayerMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "81000E655F7B5F48135DD9F784C4C677F2DF749D",
+			"Assets": [
+				"/Interchange/Materials/ClearCoatMaterial"
 			]
 		},
 		{
@@ -233,221 +504,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "1EFAF36BE13B7F8D7EDD410DD8152D7CDB1ABE20",
+			"ShaderMapHash": "88ECB83995BAC74B6E331748753BCB03E66DBB4D",
 			"Assets": [
-				"/Engine/EngineDebugMaterials/DebugEditorMaterial"
+				"/Interchange/gltf/M_Unlit"
 			]
 		},
 		{
-			"ShaderMapHash": "EBC5EAF6BA35A2167539F7C2B3331748BEAEBA17",
+			"ShaderMapHash": "11FC126C9160A9F74CC2069D13E51DC30DF3E0F2",
 			"Assets": [
-				"/Game/Assets/Material/M_Door2"
-			]
-		},
-		{
-			"ShaderMapHash": "8EE2A88F6A84B92CC6977204DC39752348E6D8A7",
-			"Assets": [
-				"/Game/Assets/Material/M_GlassJar"
-			]
-		},
-		{
-			"ShaderMapHash": "395CB3EF97DC2A640700D8FA8BB1D9F2D5A8F5D5",
-			"Assets": [
-				"/Niagara/DefaultAssets/DefaultSpriteMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "DC7317E7B51BC60B7479421A1E4B1A0E6052BD3C",
-			"Assets": [
-				"/Game/Assets/Models/Material_003",
-				"/Game/Assets/Models/Highlight",
-				"/Game/Assets/Models/iris"
-			]
-		},
-		{
-			"ShaderMapHash": "0DF8D724C8361179F2B10A83734E23BB196EC51F",
-			"Assets": [
-				"/Game/Assets/Material/M_GlassJar_Lid"
-			]
-		},
-		{
-			"ShaderMapHash": "3B85A44920AEF645DD6156792F3EC60B659F1C9F",
-			"Assets": [
-				"/Game/Assets/Material/M_BottleLid3"
-			]
-		},
-		{
-			"ShaderMapHash": "DE6480BD231A216C0D1EC9BF8C1E84ABFB0994FF",
-			"Assets": [
-				"/Game/Assets/Material/M_FileBox_Line"
-			]
-		},
-		{
-			"ShaderMapHash": "35A0BD66D85A5E2CF54B5FD07B69D61E96357B5B",
-			"Assets": [
-				"/Game/Assets/Material/M_BottleLid2"
-			]
-		},
-		{
-			"ShaderMapHash": "D4F82A53018F55F4DC7CAB5558B988708DE59B75",
-			"Assets": [
-				"/Game/Assets/Material/M_BottleLid1"
-			]
-		},
-		{
-			"ShaderMapHash": "825D692B9309DDE62DF4799229F09017058993B6",
-			"Assets": [
-				"/Game/Assets/Material/M_BottleLid"
-			]
-		},
-		{
-			"ShaderMapHash": "998892AB8827AD3EBC7513ECBB92A06289A83430",
-			"Assets": [
-				"/Game/Assets/Material/M_Bottle"
-			]
-		},
-		{
-			"ShaderMapHash": "3BBC4507F905E55934B3D4DE1D9E957491E6A0B4",
-			"Assets": [
-				"/Engine/EngineMaterials/DefaultMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "0F5F43FBA79448125E4993F5414DBAB22136F5CC",
-			"Assets": [
-				"/Engine/MapTemplates/Materials/BasicAsset01"
-			]
-		},
-		{
-			"ShaderMapHash": "17F0AFD0D09C5657D5326AF68F28C793692F429E",
-			"Assets": [
-				"/Game/Assets/Material/M_ButtonText"
-			]
-		},
-		{
-			"ShaderMapHash": "02595801E7FA2EC83AA64C3B347951DC05B96BFC",
-			"Assets": [
-				"/Game/Assets/Material/M_Elevator",
-				"/Game/Assets/Material/M_DoorHandle"
-			]
-		},
-		{
-			"ShaderMapHash": "181E6816F7E73C0B7C1EB6A92CF62A6391B8BBEC",
-			"Assets": [
-				"/Game/Assets/Material/M_ElevatorButton"
-			]
-		},
-		{
-			"ShaderMapHash": "CCCAC217B7135DC1712C5974EBE16F309B2ACE8C",
-			"Assets": [
-				"/Engine/EditorMaterials/PreviewShadowIndicatorMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "85E7D862564E6DBBBAF6AF78998965AFFA044EDF",
-			"Assets": [
-				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
-			]
-		},
-		{
-			"ShaderMapHash": "4AAC5998E0D754804BACEC3855282D918BF08DE8",
-			"Assets": [
-				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
-			]
-		},
-		{
-			"ShaderMapHash": "A8154295A8CCADBD50F6010C9380993A9A26A1DF",
-			"Assets": [
-				"/Interchange/Materials/PhongSurfaceMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "CBB81DC87A36058E97766C68720C93D4456197AD",
-			"Assets": [
-				"/Game/Assets/Material/M_ElevatorFloor"
-			]
-		},
-		{
-			"ShaderMapHash": "45096322FF53D2F3385F149945E3E391B2D389EC",
-			"Assets": [
-				"/Game/Assets/Material/M_Security_Monitor"
-			]
-		},
-		{
-			"ShaderMapHash": "BDF16253E75518026B1D43B082AB2DE09912B7CB",
-			"Assets": [
-				"/Game/Assets/Material/M_Securitytap"
-			]
-		},
-		{
-			"ShaderMapHash": "5D93D565AFA4DEADB42F1D5828DCD49A63CED709",
-			"Assets": [
-				"/Game/Assets/Material/M_AlphaTexture"
-			]
-		},
-		{
-			"ShaderMapHash": "28F078D57FE89B79987205E5C8B975093396F510",
-			"Assets": [
-				"/Game/Assets/Material/M_VolumeticFog"
-			]
-		},
-		{
-			"ShaderMapHash": "769E4BD2FE72A8EFD61A685DC4186D0AB83833B7",
-			"Assets": [
-				"/Game/Assets/Material/M_AccessDoor"
-			]
-		},
-		{
-			"ShaderMapHash": "29FAE60E8B57B981A074D9C1C0B5AD39ADAB603B",
-			"Assets": [
-				"/Game/Assets/Material/ObjectCopyMat",
-				"/Game/Assets/Material/ObjectCopyMat_Gun"
-			]
-		},
-		{
-			"ShaderMapHash": "6116A76676C379D1C41F81E248FEC4D63E9F4030",
-			"Assets": [
-				"/Game/Assets/Material/M_BottleLabel",
-				"/Game/Assets/Material/M_BottleLabel_2",
-				"/Game/Assets/Material/M_BottleLabel_3",
-				"/Game/Assets/Material/M_BottleLabel_4"
-			]
-		},
-		{
-			"ShaderMapHash": "AB34249445971790D186FDB95EA26CCC3A33E084",
-			"Assets": [
-				"/Game/StarterContent/Props/Materials/M_StatueGlass"
-			]
-		},
-		{
-			"ShaderMapHash": "E578099C40792B26EFB7A560C0D750F427DBC35E",
-			"Assets": [
-				"/Game/Assets/Material/Default",
-				"/Game/Assets/Models/Material"
-			]
-		},
-		{
-			"ShaderMapHash": "BC93800B5785876D871CA98687A5B7C8FDE58BB4",
-			"Assets": [
-				"/Game/Assets/Material/M_FileBox_Nametag"
-			]
-		},
-		{
-			"ShaderMapHash": "5A603A1E990A3E2212123FCF071B82CB25F9F51E",
-			"Assets": [
-				"/Game/Assets/Material/M_ToolBox"
-			]
-		},
-		{
-			"ShaderMapHash": "A8367273EA1F00215377F6A538E841B482B180B4",
-			"Assets": [
-				"/Interchange/Materials/OrenNayerMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "54DD3768AEC68A3E25CBF4D08B128F511A861B38",
-			"Assets": [
-				"/Interchange/Materials/LambertSurfaceMaterial"
+				"/Interchange/Materials/ThinTranslucentMaterial"
 			]
 		},
 		{
@@ -463,27 +528,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "88ECB83995BAC74B6E331748753BCB03E66DBB4D",
-			"Assets": [
-				"/Interchange/gltf/M_Unlit"
-			]
-		},
-		{
-			"ShaderMapHash": "11FC126C9160A9F74CC2069D13E51DC30DF3E0F2",
-			"Assets": [
-				"/Interchange/Materials/ThinTranslucentMaterial"
-			]
-		},
-		{
 			"ShaderMapHash": "C874A5079DBF0A1762E9D2E63AA73289094DCF24",
 			"Assets": [
 				"/Interchange/Materials/PBRSurfaceMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "81000E655F7B5F48135DD9F784C4C677F2DF749D",
-			"Assets": [
-				"/Interchange/Materials/ClearCoatMaterial"
 			]
 		},
 		{
@@ -523,21 +570,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "4FAB1C78DEBF9136DA3F11927FBCAD2AACF260E1",
+			"ShaderMapHash": "A8C85100BC50E315909620390563C5D78A961A27",
 			"Assets": [
-				"/Interchange/gltf/MaterialInstances_SG/MI_Translucent_TS"
+				"/Interchange/gltf/MaterialInstances_MR/MI_Translucent_TS"
 			]
 		},
 		{
 			"ShaderMapHash": "32123420883382D951D2B4CA7B504D7378ADB81B",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances_MR/MI_Translucent_ClearCoat_TS"
-			]
-		},
-		{
-			"ShaderMapHash": "C44AE2FBC62B1A449AEAD6135E74DB36C14518A1",
-			"Assets": [
-				"/Interchange/gltf/MaterialInstances_MR/MI_Transmission_TS"
 			]
 		},
 		{
@@ -550,6 +591,12 @@
 			"ShaderMapHash": "05ADFC39DCC27BEE1D1C37AAD2B8DE48D0C2E4D1",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances_SG/MI_Transmission"
+			]
+		},
+		{
+			"ShaderMapHash": "C44AE2FBC62B1A449AEAD6135E74DB36C14518A1",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Transmission_TS"
 			]
 		},
 		{
@@ -571,27 +618,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "A8C85100BC50E315909620390563C5D78A961A27",
+			"ShaderMapHash": "4FAB1C78DEBF9136DA3F11927FBCAD2AACF260E1",
 			"Assets": [
-				"/Interchange/gltf/MaterialInstances_MR/MI_Translucent_TS"
-			]
-		},
-		{
-			"ShaderMapHash": "EC91F2DC67B0AF6000E83181F8389F9E4E5001D8",
-			"Assets": [
-				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque"
+				"/Interchange/gltf/MaterialInstances_SG/MI_Translucent_TS"
 			]
 		},
 		{
 			"ShaderMapHash": "9E8A0EDD9660D8835FCFD38EF64F5635A0C97C64",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances_SG/MI_Translucent_ClearCoat_TS"
-			]
-		},
-		{
-			"ShaderMapHash": "C3EE3A1FD994E47AC43C0AF0D1C4165F0138A19B",
-			"Assets": [
-				"/Interchange/gltf/MaterialInstances_MR/MI_Translucent_ClearCoat"
 			]
 		},
 		{
@@ -607,21 +642,45 @@
 			]
 		},
 		{
+			"ShaderMapHash": "BF28774B8784852D7833D91B140A1F4BDCDDD0FD",
+			"Assets": [
+				"/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02"
+			]
+		},
+		{
+			"ShaderMapHash": "C3EE3A1FD994E47AC43C0AF0D1C4165F0138A19B",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Translucent_ClearCoat"
+			]
+		},
+		{
 			"ShaderMapHash": "AA013174199956FC372BFAD6C1520CA7B1E80B94",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque_TS"
 			]
 		},
 		{
-			"ShaderMapHash": "4948D047A8D597875862961188870F47ECFB1341",
-			"Assets": [
-				"/Interchange/gltf/MaterialInstances_MR/MI_Opaque_TS"
-			]
-		},
-		{
 			"ShaderMapHash": "8F3E4C85654B1AC31892B7670EF9249993677A53",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque_ClearCoat_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "45DAA35EAA921F6BFCB3493ABB53B478EA967A7C",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque_ClearCoat"
+			]
+		},
+		{
+			"ShaderMapHash": "EC91F2DC67B0AF6000E83181F8389F9E4E5001D8",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "4948D047A8D597875862961188870F47ECFB1341",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Opaque_TS"
 			]
 		},
 		{
@@ -637,154 +696,120 @@
 			]
 		},
 		{
-			"ShaderMapHash": "45DAA35EAA921F6BFCB3493ABB53B478EA967A7C",
+			"ShaderMapHash": "8B031C8D4503683525E01223F00106422FA324CB",
 			"Assets": [
-				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque_ClearCoat"
+				"/Game/Assets/Material/M_GlassJar"
 			]
 		},
 		{
-			"ShaderMapHash": "BF28774B8784852D7833D91B140A1F4BDCDDD0FD",
+			"ShaderMapHash": "5BC81BF4C5906C5D7D420097117FCE1D5B4CF984",
 			"Assets": [
-				"/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02"
+				"/Game/Assets/Material/M_Floor"
 			]
 		},
 		{
-			"ShaderMapHash": "7DAF01793C0456BB8E6FC5DA778BB1A5FCD04D61",
+			"ShaderMapHash": "3B6399B95C7700A56EE9C6694E99CE74D5342920",
 			"Assets": [
-				"/ControlRig/Controls/ControlRigGizmoMaterial"
+				"/Game/Assets/Material/M_FileBox_Nametag"
 			]
 		},
 		{
-			"ShaderMapHash": "434B6239CCE95149DEC0B602489B66271C6FB600",
+			"ShaderMapHash": "AAF2EA03B75939B5503AD205371429928D43B531",
 			"Assets": [
-				"/Game/Assets/Material/M_Gun"
+				"/Game/Assets/Material/M_BottleLabel_2",
+				"/Game/Assets/Material/M_BottleLabel",
+				"/Game/Assets/Material/M_BottleLabel_4",
+				"/Game/Assets/Material/M_BottleLabel_3"
 			]
 		},
 		{
-			"ShaderMapHash": "9D8C16920EF1BF9AD17CC735AAC5A0D766E088CB",
+			"ShaderMapHash": "BC69C4741DDB6F41640906B32F9F6EC51D185245",
 			"Assets": [
-				"/Game/Assets/Material/M_GunHandle"
+				"/Engine/EditorMaterials/MatineeGroups/MAT_Groups_Trajectory_On_Mat"
 			]
 		},
 		{
-			"ShaderMapHash": "AC9C284DF870187346EB07AB0071E479A58DDDD5",
+			"ShaderMapHash": "D28F5D434C8F357F55E78DE78BF2F5DF77CA0529",
 			"Assets": [
-				"/Game/Assets/Material/M_Spider"
+				"/Game/Assets/Material/M_Bottle"
 			]
 		},
 		{
-			"ShaderMapHash": "55F7408C7A5A9F0D41583D20E176A58168413227",
+			"ShaderMapHash": "1E0E916AD581D1326D2DCC88518F664CACBCCE41",
 			"Assets": [
-				"/Game/Assets/Material/M_ShutterBody"
+				"/Engine/TemplateResources/M_Template_Master"
 			]
 		},
 		{
-			"ShaderMapHash": "285494087DDFD8086AA0EAB6D411E2EA6F466B67",
+			"ShaderMapHash": "8E563083FBB3BD466E82906DDBC3EC7833491352",
 			"Assets": [
-				"/Game/Assets/Material/M_Paper"
+				"/Game/Assets/Material/Material_010"
 			]
 		},
 		{
-			"ShaderMapHash": "AE846364DC2D96715819E5C4F2F98F7F44F70F9C",
+			"ShaderMapHash": "10A84B801673A5ABE2F6CCEDDAB2E5E7894B7665",
 			"Assets": [
-				"/Game/Assets/Material/M_GlassJar_Lid2"
+				"/Game/Assets/Material/M_Ceil"
 			]
 		},
 		{
-			"ShaderMapHash": "01760BA9007A6384FABFDA196A44E379359A9492",
+			"ShaderMapHash": "684BD76EAEB239B6E2BFEC371B35525F9F7599AB",
 			"Assets": [
-				"/Game/Assets/Material/M_FileBox"
+				"/Game/Assets/Material/M_Security_Monitor"
 			]
 		},
 		{
-			"ShaderMapHash": "87C10838105B26E4C446835B8B97027D05F42247",
+			"ShaderMapHash": "0176755690635CC805B2CB6B94C554CEC3A4AB02",
 			"Assets": [
-				"/Game/StarterContent/Materials/M_Wood_Walnut"
+				"/Game/Assets/Material/M_Securitytap"
 			]
 		},
 		{
-			"ShaderMapHash": "338302D3A74AEAD58342CC472424F5CFF59BA4D0",
+			"ShaderMapHash": "CE45723D8C5A2E8F94BCD57B7B69E2302E0D92E9",
 			"Assets": [
-				"/Game/Assets/Material/M_Shutter_Danger"
+				"/Game/Assets/Material/M_VolumeticFog"
 			]
 		},
 		{
-			"ShaderMapHash": "C8C2DBEFB4116E248BA2FE49665024F39F93FB4C",
+			"ShaderMapHash": "89A19CA83B1428910722CC9B0C01383AC7374CDA",
 			"Assets": [
-				"/Engine/VREditor/BasicMeshes/M_Floor_01"
+				"/Game/Assets/Material/M_BottleLid"
 			]
 		},
 		{
-			"ShaderMapHash": "10F2E44BB97D4E41E5CFF22443AF3720718A6EC6",
+			"ShaderMapHash": "291241E13192DF6F3F02F28F3B761FBA56C2569F",
 			"Assets": [
-				"/Game/Assets/Material/M_Danger2"
+				"/Game/Assets/Material/M_AlphaTexture"
 			]
 		},
 		{
-			"ShaderMapHash": "327B7F210DB619EB9D6704B632E110FE68274967",
+			"ShaderMapHash": "EE0CB988A930544205BC539103B6BE18A3C6F275",
 			"Assets": [
-				"/Game/Assets/Material/M_ExitLight"
+				"/Game/Assets/Material/M_GlassJar_Lid"
 			]
 		},
 		{
-			"ShaderMapHash": "D9B7E34F5C3741168887F7608E47E465C65E207A",
+			"ShaderMapHash": "C9DFAC649212E9F286C44F50620E711F41B0D723",
 			"Assets": [
-				"/Game/Assets/Material/M_File"
+				"/Game/Assets/Material/M_FileBox_Line"
 			]
 		},
 		{
-			"ShaderMapHash": "AAE7DE1C24309B635F8E94708A583B1C3F3D00E7",
+			"ShaderMapHash": "1411130EFD94335ECFB55F0A7F07E7861F13BF27",
 			"Assets": [
-				"/Game/Assets/Material/M_Danger1"
+				"/Game/Assets/Material/M_BottleLid2"
 			]
 		},
 		{
-			"ShaderMapHash": "9656E97377B35FF34F3B6CC4FD8793383439244E",
+			"ShaderMapHash": "1978B9C31647815929091976CF99C2EE6F39B29C",
 			"Assets": [
-				"/Game/Assets/Material/M_Face"
+				"/Game/Assets/Material/M_BottleLid1"
 			]
 		},
 		{
-			"ShaderMapHash": "A0CD578BCF8875E561457150A67F80219C8D7D8F",
+			"ShaderMapHash": "818394CC1483383E22689E00CF38B1619A0CF016",
 			"Assets": [
-				"/Game/Assets/Material/01_-_Default",
-				"/Game/Assets/Material/M_Flastic"
-			]
-		},
-		{
-			"ShaderMapHash": "B04FA894B0CD8C204319C9C501CC7ABAA43E9B15",
-			"Assets": [
-				"/Engine/VREditor/UI/M_ContentWindow"
-			]
-		},
-		{
-			"ShaderMapHash": "C6110DA54BABCEF73FAB8F49EF084B6059F01F10",
-			"Assets": [
-				"/Engine/MapTemplates/Materials/BasicAsset02"
-			]
-		},
-		{
-			"ShaderMapHash": "AB0BB6D3F580631C73D9D940B3386A512E0BEC8B",
-			"Assets": [
-				"/Game/Assets/Material/M_Shelf_Iron"
-			]
-		},
-		{
-			"ShaderMapHash": "AFEC18D439360C76136F0BEAE7491C7A5FEF0E2E",
-			"Assets": [
-				"/Game/Assets/Material/M_Lamp"
-			]
-		},
-		{
-			"ShaderMapHash": "3184C79B2539CCD09EBCF24ECEC5B57A80B2922C",
-			"Assets": [
-				"/Game/Assets/Material/M_Shelf"
-			]
-		},
-		{
-			"ShaderMapHash": "453E5A5B25D5112EAA5182B007ABDD8BFEA0590D",
-			"Assets": [
-				"/Engine/EngineDebugMaterials/ShadedLevelColorationLitMaterial"
+				"/Game/Assets/Material/M_BottleLid3"
 			]
 		}
 	]
