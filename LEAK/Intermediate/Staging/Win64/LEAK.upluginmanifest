@@ -106,6 +106,40 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Animation/ControlRigSpline/ControlRigSpline.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Control Rig Spline",
+				"Description": "Allows creation and use of splines for Control Rig",
+				"Category": "Animation",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"IsBetaVersion": true,
+				"IsExperimentalVersion": true,
+				"Modules": [
+					{
+						"Name": "ControlRigSpline",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ControlRig",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Animation/ControlRig/ControlRig.uplugin",
 			"Descriptor": 
 			{
@@ -163,40 +197,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Animation/ControlRigSpline/ControlRigSpline.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Control Rig Spline",
-				"Description": "Allows creation and use of splines for Control Rig",
-				"Category": "Animation",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"IsBetaVersion": true,
-				"IsExperimentalVersion": true,
-				"Modules": [
-					{
-						"Name": "ControlRigSpline",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "ControlRig",
-						"Enabled": true
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Animation/IKRig/IKRig.uplugin",
 			"Descriptor": 
 			{
@@ -237,6 +237,59 @@
 					},
 					{
 						"Name": "FullBodyIK",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Bridge/Bridge.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 16,
+				"VersionName": "2022.1.1",
+				"FriendlyName": "Bridge",
+				"Description": "Megascans Link for Quixel Bridge.",
+				"Category": "Editor",
+				"CreatedBy": "Quixel",
+				"CreatedByURL": "https://www.quixel.se",
+				"DocsURL": "https://help.quixel.com/hc/en-us/sections/360005846137-Quixel-Bridge-for-Unreal-Engine-5",
+				"MarketplaceURL": "",
+				"SupportURL": "support@quixel.com",
+				"EngineVersion": "5.1.0",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"SupportedTargetPlatforms": [
+					"Win64",
+					"Mac",
+					"Linux"
+				],
+				"Modules": [
+					{
+						"Name": "Bridge",
+						"Type": "Editor",
+						"LoadingPhase": "PostDefault",
+						"PlatformAllowList": [
+							"Win64",
+							"Mac",
+							"Linux"
+						]
+					},
+					{
+						"Name": "MegascansPlugin",
+						"Type": "Editor",
+						"LoadingPhase": "PostDefault",
+						"PlatformAllowList": [
+							"Win64",
+							"Mac",
+							"Linux"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "EditorScriptingUtilities",
 						"Enabled": true
 					}
 				]
@@ -1024,39 +1077,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Experimental/ChaosCloth/ChaosCloth.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "0.1",
-				"FriendlyName": "Chaos Cloth",
-				"Description": "Adds Chaos Cloth Module.",
-				"Category": "Physics",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"IsBetaVersion": true,
-				"Modules": [
-					{
-						"Name": "ChaosCloth",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit"
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "ChaosCaching",
-						"Enabled": true
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Experimental/ChaosClothEditor/ChaosClothEditor.uplugin",
 			"Descriptor": 
 			{
@@ -1084,6 +1104,39 @@
 				"Plugins": [
 					{
 						"Name": "ChaosCloth",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Experimental/ChaosCloth/ChaosCloth.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.1",
+				"FriendlyName": "Chaos Cloth",
+				"Description": "Adds Chaos Cloth Module.",
+				"Category": "Physics",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "ChaosCloth",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "ChaosCaching",
 						"Enabled": true
 					}
 				]
@@ -1810,6 +1863,55 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Marketplace/NiagaraUIRenderer/NiagaraUIRenderer.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.1.6",
+				"FriendlyName": "Niagara UI Renderer",
+				"Description": "Add support for Niagara particle systems to be rendered directly as UI Widgets",
+				"Category": "FX",
+				"CreatedBy": "Michal Smoleň",
+				"CreatedByURL": "https://github.com/SourySK/NiagaraUIRenderer",
+				"DocsURL": "https://sourysk.github.io/NiagaraUIRendererDocumentation/",
+				"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/fd24d23ca57b4c59a4e4b7368da250bd",
+				"SupportURL": "",
+				"EngineVersion": "5.1.0",
+				"CanContainContent": true,
+				"Installed": true,
+				"SupportedTargetPlatforms": [
+					"Win64",
+					"Android"
+				],
+				"Modules": [
+					{
+						"Name": "NiagaraUIRenderer",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault",
+						"PlatformAllowList": [
+							"Win64",
+							"Android"
+						]
+					},
+					{
+						"Name": "NiagaraUIRendererEditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default",
+						"PlatformAllowList": [
+							"Win64"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "Niagara",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin",
 			"Descriptor": 
 			{
@@ -2463,44 +2565,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Online Subsystem",
-				"Description": "Shared code for interacting online subsystem implementations.",
-				"Category": "Online Platform",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "OnlineSubsystem",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit"
-					}
-				],
-				"LocalizationTargets": [
-					{
-						"Name": "OnlineSubsystem",
-						"LoadingPolicy": "Always"
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "OnlineBase",
-						"Enabled": true
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin",
 			"Descriptor": 
 			{
@@ -2578,6 +2642,44 @@
 					},
 					{
 						"Name": "OnlineServices",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Online Subsystem",
+				"Description": "Shared code for interacting online subsystem implementations.",
+				"Category": "Online Platform",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "OnlineSubsystem",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit"
+					}
+				],
+				"LocalizationTargets": [
+					{
+						"Name": "OnlineSubsystem",
+						"LoadingPolicy": "Always"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "OnlineBase",
 						"Enabled": true
 					}
 				]
