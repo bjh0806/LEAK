@@ -45,8 +45,8 @@
 /DWITH_PUSH_MODEL=0
 /DWITH_CEF3=1
 /DWITH_LIVE_CODING=1
-/DUE_LIVE_CODING_ENGINE_DIR="D:\\UE_5.1\\Engine"
-/DUE_LIVE_CODING_PROJECT="D:\\UE_5.1\\LEAK\\LEAK\\LEAK.uproject"
+/DUE_LIVE_CODING_ENGINE_DIR="C:\\Program Files\\Epic Games\\UE_5.1\\Engine"
+/DUE_LIVE_CODING_PROJECT="C:\\Project\\UnrealEngine\\LEAK\\LEAK\\LEAK.uproject"
 /DWITH_CPP_MODULES=0
 /DWITH_CPP_COROUTINES=0
 /DWITH_PROCESS_PRIORITY_CONTROL=0
@@ -55,7 +55,7 @@
 /DUBT_COMPILED_PLATFORM=Win64
 /DUBT_COMPILED_TARGET=Game
 /DUE_APP_NAME="UnrealGame"
-/DUE_ENGINE_DIRECTORY="../../../../Engine/"
+/DUE_ENGINE_DIRECTORY="../../../../../../Program Files/Epic Games/UE_5.1/Engine/"
 /DNDIS_MINIPORT_MAJOR_VERSION=0
 /DWIN32=1
 /D_WIN32_WINNT=0x0601
@@ -73,5 +73,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Third Person BP Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=LEAK
-/fo "D:\UE_5.1\LEAK\LEAK\Intermediate\Build\Win64\LEAK\Development\Default.rc2.res"
+/fo "C:\Project\UnrealEngine\LEAK\LEAK\Intermediate\Build\Win64\LEAK\Development\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

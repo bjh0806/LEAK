@@ -1,0 +1,8 @@
+2023/07/31-01:42:40.434 4868 Reusing MANIFEST C:/Project/UnrealEngine/LEAK/LEAK/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/31-01:42:40.434 4868 Recovering log #4
+2023/07/31-01:42:40.435 4868 Reusing old log C:/Project/UnrealEngine/LEAK/LEAK/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/000004.log 
+2023/07/31-01:49:44.174 1a20 Level-0 table #8: started
+2023/07/31-01:49:44.174 1a20 Level-0 table #8: 0 bytes OK
+2023/07/31-01:49:44.181 1a20 Delete type=0 #4
+2023/07/31-01:49:44.181 1a20 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/07/31-01:49:44.181 1a20 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
