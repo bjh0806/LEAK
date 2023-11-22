@@ -6,12 +6,13 @@
 #include "Animation/SkeletalMeshActor.h"
 #include "Lever.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class LEAK_API ALever : public ASkeletalMeshActor
 {
 	GENERATED_BODY()
-	
+public:
+	ALever();
+
+	void LeverDown();
 };

@@ -3,3 +3,7 @@
 
 #include "Shutter.h"
 
+void AShutter::ShutDown()
+{
+
+}

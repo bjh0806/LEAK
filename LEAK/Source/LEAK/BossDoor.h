@@ -4,13 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "Animation/SkeletalMeshActor.h"
-#include "Shutter.generated.h"
+#include "BossDoor.generated.h"
 
-
+/**
+ * 
+ */
 UCLASS()
-class LEAK_API AShutter : public ASkeletalMeshActor
+class LEAK_API ABossDoor : public ASkeletalMeshActor
 {
 	GENERATED_BODY()
+	
 public:
-	void ShutDown();
+	// Sets default values for this character's properties
+	ABossDoor();
 };

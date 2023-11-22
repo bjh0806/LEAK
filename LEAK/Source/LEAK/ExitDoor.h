@@ -13,5 +13,14 @@ UCLASS()
 class LEAK_API AExitDoor : public ASkeletalMeshActor
 {
 	GENERATED_BODY()
-	
+public:
+	AExitDoor();
+
+	void CurFloor(int levelname);
+private:
+	bool open{};
+	enum floorname {
+		B2, B1, floor, final
+	};
+	int NextFloor{0};
 };

@@ -4,13 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "Animation/SkeletalMeshActor.h"
-#include "Shutter.generated.h"
+#include "FileBox_Movable.generated.h"
 
-
+/**
+ * 
+ */
 UCLASS()
-class LEAK_API AShutter : public ASkeletalMeshActor
+class LEAK_API AFileBox_Movable : public ASkeletalMeshActor
 {
 	GENERATED_BODY()
+	
 public:
-	void ShutDown();
+	// Sets default values for this character's properties
+	AFileBox_Movable();
 };
