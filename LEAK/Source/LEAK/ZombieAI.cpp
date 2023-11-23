@@ -54,7 +54,7 @@ int AZombieAI::GetState()
 
 void AZombieAI::EndAttack()
 {
-	ABasicPlayer* player{};
+	ABasicPlayer* player = Cast<ABasicPlayer>(GetBasicPlayer());;
 	if (!player->GetHp())
 		;
 	else
@@ -118,7 +118,7 @@ float AZombieAI::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent,
 
 float AZombieAI::CalDistance()
 {
-	ABasicPlayer* player{};
+	ABasicPlayer* player = Cast<ABasicPlayer>(GetBasicPlayer());;
 	vector<float> temp = player->GetPos();
 	float distance = temp[1] - GetPos()[1];
 

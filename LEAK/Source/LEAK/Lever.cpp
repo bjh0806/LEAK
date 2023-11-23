@@ -19,10 +19,10 @@ ALever::ALever()
 	CollisionBox->SetRelativeLocation(FVector(0.f, 0.f, 0.f));
 
 
-	static ConstructorHelpers::FObjectFinder<USkeletalMeshActor> SM_Lever
-	(TEXT("/Script/Engine.StaticMesh'/Game/Assets/Models/SM_Lever.SM_Lever'"));
-	if (SM_Lever.Succeeded()) {
-		Lever->SetSkeletalMeshActor(SM_Lever.Object);
+	static ConstructorHelpers::FObjectFinder<USkeletalMeshActor> DM_Lever
+	(TEXT("/Script/Engine.StaticMesh'/Game/Assets/Models/DM_Lever.DM_Lever'"));
+	if (DM_Lever.Succeeded()) {
+		Lever->SetSkeletalMeshActor(DM_Lever.Object);
 	}
 	Lever->SetCollisionProfileName(TEXT("NoCollision"));
 	CollisionBox->SetCollisionProfileName(TEXT("NoCollision"));

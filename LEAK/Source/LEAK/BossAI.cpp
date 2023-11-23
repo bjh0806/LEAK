@@ -51,7 +51,7 @@ int ABossAI::GetState()
 
 void ABossAI::EndAttack()
 {
-	ABasicPlayer* player{};
+	ABasicPlayer* player = Cast<ABasicPlayer>(GetBasicPlayer());;
 	if (!player->GetHp())
 		;
 	else
@@ -115,7 +115,7 @@ float ABossAI::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, A
 
 float ABossAI::CalDistance()
 {
-	ABasicPlayer* player{};
+	ABasicPlayer* player = Cast<ABasicPlayer>(GetBasicPlayer());;
 	vector<float> temp = player->GetPos();
 	float distance = temp[1] - GetPos()[1];
 

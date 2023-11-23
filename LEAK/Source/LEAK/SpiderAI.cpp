@@ -17,7 +17,7 @@ ASpiderAI::ASpiderAI()
 	static ConstructorHelpers::FObjectFinder<USoundWave> propellerCue(TEXT("/Script/Engine.SoundWave'/Game/Lab/Sound/Spider_Sound.Spider_Sound'"));
 	SpiderDeath = propellerCue.Object;
 
-	SpiderAI = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	SpiderAI = CreateDefaultSubobject<UCharacterComponent>(TEXT("Mesh"));
 	RootComponent = SpiderAI;
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionBox"));
 	CollisionBox->SetupAttachment(RootComponent);
@@ -25,7 +25,7 @@ ASpiderAI::ASpiderAI()
 	CollisionBox->SetRelativeLocation(FVector(0.f, 0.f, 3.234417));
 
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> DM_Spider
+	static ConstructorHelpers::FObjectFinder<UCharacter> DM_Spider
 	(TEXT("/Script/Engine.StaticMesh'/Game/Assets/Models/DM_Spider.DM_Spider'"));
 	if (DM_Spider.Succeeded()) {
 		SpiderAI->SetStaticMesh(DM_Spider.Object);
@@ -52,7 +52,7 @@ int ASpiderAI::GetState()
 
 void ASpiderAI::EndAttack()
 {
-	ABasicPlayer* player{};
+	ABasicPlayer* player = Cast<ABasicPlayer>(GetBasicPlayer());;
 	if (!player->GetHp())
 		;
 	else
@@ -116,7 +116,7 @@ float ASpiderAI::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent,
 
 float ASpiderAI::CalDistance()
 {
-	ABasicPlayer* player{};
+	ABasicPlayer* player = Cast<ABasicPlayer>(GetBasicPlayer());
 	vector<float> temp = player->GetPos();
 	float distance = temp[1] - GetPos()[1];
 

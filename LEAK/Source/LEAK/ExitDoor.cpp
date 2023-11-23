@@ -18,10 +18,10 @@ AExitDoor::AExitDoor()
 	CollisionBox->SetRelativeLocation(FVector(0.f, 0.f, 0.f));
 
 
-	static ConstructorHelpers::FObjectFinder<USkeletalMeshActor> SM_ExitDoor
-	(TEXT("/Script/Engine.SkeletalMesh'/Game/Assets/Models/SM_ExitDoor.SM_ExitDoor'"));
-	if (SM_ExitDoor.Succeeded()) {
-		ExitDoor->SetSkeletalMeshActor(SM_ExitDoor.Object);
+	static ConstructorHelpers::FObjectFinder<USkeletalMeshActor> DM_ExitDoor
+	(TEXT("/Script/Engine.SkeletalMesh'/Game/Assets/Models/DM_ExitDoor.DM_ExitDoor'"));
+	if (DM_ExitDoor.Succeeded()) {
+		ExitDoor->SetSkeletalMeshActor(DM_ExitDoor.Object);
 	}
 	ExitDoor->SetCollisionProfileName(TEXT("NoCollision"));
 	CollisionBox->SetCollisionProfileName(TEXT("NoCollision"));

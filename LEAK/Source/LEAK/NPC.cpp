@@ -20,10 +20,10 @@ ANPC::ANPC()
 	CollisionBox->SetRelativeLocation(FVector(0.f, 0.f, 0.f));
 
 
-	static ConstructorHelpers::FObjectFinder<UCharacterActor> SM_NPC
-	(TEXT("/Script/Engine.StaticMesh'/Game/Assets/Models/SM_NPC.SM_NPC'"));
-	if (SM_NPC.Succeeded()) {
-		NPC->SetCharacterActor(SM_NPC.Object);
+	static ConstructorHelpers::FObjectFinder<UCharacterActor> DM_NPC
+	(TEXT("/Script/Engine.SkeletalMesh'/Game/Assets/Models/DM_NPC.DM_NPC'"));
+	if (DM_NPC.Succeeded()) {
+		NPC->SetCharacterActor(DM_NPC.Object);
 	}
 	NPC->SetCollisionProfileName(TEXT("NoCollision"));
 	CollisionBox->SetCollisionProfileName(TEXT("NoCollision"));

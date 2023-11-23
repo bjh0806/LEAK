@@ -10,7 +10,7 @@ AFileBox_Movable::AFileBox_Movable()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
-	FileBox_Movable = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	FileBox_Movable = CreateDefaultSubobject<USkeletalMeshActorComponent>(TEXT("Mesh"));
 	RootComponent = FileBox_Movable;
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionBox"));
 	CollisionBox->SetupAttachment(RootComponent);
@@ -18,10 +18,10 @@ AFileBox_Movable::AFileBox_Movable()
 	CollisionBox->SetRelativeLocation(FVector(0.f, 0.f, 0.f));
 
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> SM_FileBox_Movable
-	(TEXT("/Script/Engine.StaticMesh'/Game/Assets/Models/SM_FileBox_Movable.SM_FileBox_Movable'"));
-	if (SM_FileBox_Movable.Succeeded()) {
-		FileBox_Movable->SetStaticMesh(SM_FileBox_Movable.Object);
+	static ConstructorHelpers::FObjectFinder<USkeletalMeshActor> DM_FileBox_Movable
+	(TEXT("/Script/Engine.StaticMesh'/Game/Assets/Models/DM_FileBox_Movable.DM_FileBox_Movable'"));
+	if (DM_FileBox_Movable.Succeeded()) {
+		FileBox_Movable->SetSkeletalMeshActor(DM_FileBox_Movable.Object);
 	}
 	FileBox_Movable->SetCollisionProfileName(TEXT("NoCollision"));
 	CollisionBox->SetCollisionProfileName(TEXT("NoCollision"));
